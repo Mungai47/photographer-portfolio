@@ -7,7 +7,3 @@ body {
   @apply bg-background;
 }
 
-/* applying the text color (#d4fcf2) to every text on the website */
-h1, h2, h3, h4, h5, p, span, a, li {
-  @apply text-text;
-}

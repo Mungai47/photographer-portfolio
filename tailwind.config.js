@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         'background': '#1c2831', //background color
         'text': '#d4fcf2', // text color
+        'pale-text':'#a4c5c0',
+        'link-active': '#b5f59b', // active link
       },
     },
   },
