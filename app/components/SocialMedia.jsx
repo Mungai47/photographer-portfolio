@@ -4,7 +4,7 @@ function SocialMedia({ media }) {
   return (
     <div>
       <table>
-        <tbody className="flex gap-4">
+        <tbody className="flex flex-wrap gap-4">
           {media.map((item, index) => (
             <tr key={index}>
               <td>{item.icon}</td>
