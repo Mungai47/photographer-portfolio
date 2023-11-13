@@ -16,7 +16,7 @@ function ContactForm() {
                     <textarea name="message" placeholder="Message" className="bg-pale-text text-background py-2 rounded-lg focus:outline-none placeholder:text-background w-full" required onInvalid={(e) => {e.target.setCustomValidity("This field is required");}} onInput={(e) => {e.target.setCustomValidity("");}}></textarea>
                 </label>
                 <br />
-                <button type="submit" className="py-2 px-4 border rounded-full hover:text-background hover:bg-text">Send</button>
+                <button type="submit" className="py-3 px-6 border rounded-full hover:text-white hover:bg-green-500">Send</button>
             </form>
         </div>
     );
