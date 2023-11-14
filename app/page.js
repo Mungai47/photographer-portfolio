@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PhotoCarousel from "./components/CarouselComponent";
+import ImageGrid from "./components/ImageGrid";
 
 
 
@@ -15,7 +16,7 @@ function page() {
         <PhotoCarousel />
       </div>
       <div className="w-4/5 mx-auto py-12 md:py-16 lg:py-20">
-        <div className="text-4xl text-center md:text-left pb-4">
+        <div className="text-4xl md:text-4xl lg:text-6xl text-center md:text-left pb-4">
           <h2>
             I am a professional photographer who specializes in capturing life&apos;s most precious moments...
           </h2>
@@ -31,6 +32,9 @@ function page() {
         <div className="flex justify-center">
           <button className="py-4 px-6 border rounded-full text-lg hover:bg-green-500 hover:text-white">Read More</button>
         </div>
+      </div>
+      <div className="w-4/5 mx-auto">
+        <ImageGrid />
       </div>
     </main>
   )
