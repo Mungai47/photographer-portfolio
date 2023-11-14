@@ -1,6 +1,8 @@
 import Image from "next/image";
 import PhotoCarousel from "./components/CarouselComponent";
 import ImageGrid from "./components/ImageGrid";
+import Testimonial from "./components/Testimonial";
+import StickyImage from "./components/StickyImage";
 
 
 
@@ -35,6 +37,12 @@ function page() {
       </div>
       <div className="w-4/5 mx-auto">
         <ImageGrid />
+      </div>
+      <div className="w-4/5 mx-auto">
+        <Testimonial />
+      </div>
+      <div className="py-10">
+        <StickyImage />
       </div>
     </main>
   )
