@@ -28,12 +28,12 @@ const Navigation = ({isMobile = false, closeMenu}) => (
 // Mobile and Tablet screen menubar
 
 const MobileNavigation = ({isMobile = false, closeMenu}) => (
-  <div className="w-full h-48  absolute text-start top-20 right-0  bg-[#253440] text-pale-text py-5 grid grid-cols-1 grid-rows-5 gap-3 divide-y">
-    <NavigationLink href="/" onClick={isMobile ? closeMenu : null}>Home</NavigationLink>
-    <NavigationLink href="/gallery" onClick={isMobile ? closeMenu : null}>Gallery</NavigationLink>
-    <NavigationLink href="/services" onClick={isMobile ? closeMenu : null}>Services</NavigationLink>
-    <NavigationLink href="/about" onClick={isMobile ? closeMenu : null}>About</NavigationLink>
-    <NavigationLink href="/contact" onClick={isMobile ? closeMenu : null}>Contact</NavigationLink>    
+  <div className="w-4/5 h-48  absolute text-start top-20 right-0  bg-[#253440] text-pale-text py-5 grid grid-cols-1 grid-rows-5 gap-3 divide-y z-30">
+    <NavigationLink href="/" onClick={isMobile ? closeMenu : null} >Home</NavigationLink>
+    <NavigationLink href="/gallery" onClick={isMobile ? closeMenu : null} >Gallery</NavigationLink>
+    <NavigationLink href="/services" onClick={isMobile ? closeMenu : null} >Services</NavigationLink>
+    <NavigationLink href="/about" onClick={isMobile ? closeMenu : null} >About</NavigationLink>
+    <NavigationLink href="/contact" onClick={isMobile ? closeMenu : null} >Contact</NavigationLink>    
   </div>
 )
 
