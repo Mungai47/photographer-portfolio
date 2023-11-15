@@ -20,10 +20,6 @@ function page() {
             <Image src="/images/image14.jpg" alt="Image 14" layout="fill" objectFit="cover" className="rounded-lg" />
           </div>
         </div>
-        <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 py-5">
-          <div></div>
-          <div></div>
-        </div>
       </div>
     </div>
   )
