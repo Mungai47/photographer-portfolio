@@ -33,11 +33,13 @@ function Footer() {
                 <ContactInfo info={contactInfo} />
                 <ContactForm />
             </div>
-            <div className="grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 py-6 border-t ">
-                <div>
-                    <p>Copyright © {currentYear} Photographer Portfolio | Powered by Photographer Portfolio</p>
+            <div className=" flex flex-col items-center py-6 border-t ">
+                <div className='py-2 cursor-pointer'>
+                    <SocialMedia media={socialMedia} className="hover:text-link-active"/>
                 </div>
-                <SocialMedia media={socialMedia} />
+                <div>
+                    <p className="text-center py-4">Copyright © {currentYear} Photographer Portfolio | Powered by Photographer Portfolio</p>
+                </div>
             </div>
         </footer>
     );
